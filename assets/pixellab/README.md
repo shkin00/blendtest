@@ -2,10 +2,21 @@
 
 All of these come from PixelLab's MCP `create_tiles_pro`, using square top-down tiles at 128 px. 128 px is the
 largest seamless tile PixelLab makes. It has no seamless 256 px option, and the "Create Texture" tool exists
-only in its Aseprite extension, at 16x16. PixelLab's terms govern the output.
+only in its Aseprite extension, at 16x16.
 
-Every variation is kept here, named `<job>-tile_<n>.png`. The picks are copied to `assets/<layer>.raw.png`, and
-The app makes the alpha noise at runtime.
+Every variation is kept here, named `<job>-tile_<n>.png`. The picks are copied to `assets/<layer>.raw.png`; the
+app makes the alpha noise at runtime.
+
+## Terms
+
+These textures are the repository owner's PixelLab output, shared under
+[PixelLab's terms of service](https://pixellab.ai/termsofservice) (last updated 2025-11-23):
+
+- §1.3 and §3.3 leave the copyright with the creator and allow use, modification and distribution for any
+  purpose.
+- §1.2 and §3.3 exclude one use: training models on the images without PixelLab's explicit permission.
+- §4.1 adds the use restrictions of the
+  [CreativeML Open RAIL-M](https://github.com/CompVis/stable-diffusion/blob/main/LICENSE) licence.
 
 ## Seam scores
 
